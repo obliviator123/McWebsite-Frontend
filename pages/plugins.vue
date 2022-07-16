@@ -19,7 +19,15 @@ export default {
 
 <style scoped>
 .block {
-  background: rgba(51, 50, 50, 0.5);
+  background-color:hsla(0,100%,50%,1);
+  background-image:
+  radial-gradient(at 40% 20%, hsla(316,100%,74%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 0%, hsla(117,100%,56%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 50%, hsla(283,100%,93%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 50%, hsla(268,100%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 100%, hsla(310,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 80% 100%, hsla(170,100%,70%,1) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(271,100%,76%,1) 0px, transparent 50%);
   border-radius: 6px;
   padding: 10px;
   margin: 8px 0;
